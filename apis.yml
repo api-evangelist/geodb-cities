@@ -1,0 +1,32 @@
+aid: geodb-cities
+name: GeoDB Cities
+description: "Get global city, region, and country data"
+url: http://geodb-cities-api.wirefreethought.com/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Geocoding"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Geocoding
+  - Public APIs
+apis:
+  - name: GeoDB Cities
+    description: "Get global city, region, and country data"
+    humanURL: http://geodb-cities-api.wirefreethought.com/
+    baseURL: http://geodb-cities-api.wirefreethought.com/
+    tags:
+      - Geocoding
+    properties:
+      - type: Documentation
+        url: http://geodb-cities-api.wirefreethought.com/
+common:
+  - type: Website
+    url: http://geodb-cities-api.wirefreethought.com/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
