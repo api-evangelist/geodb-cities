@@ -1,0 +1,15 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: geodb-cities-api.wirefreethought.com
+  https: true
+  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,
+    certificate is not valid for ''geodb-citie'
+  hsts: null
+domains:
+- domain: wirefreethought.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false

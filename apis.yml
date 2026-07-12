@@ -23,10 +23,14 @@ apis:
       - type: Documentation
         url: http://geodb-cities-api.wirefreethought.com/
 common:
+  - type: DomainSecurity
+    url: security/geodb-cities-domain-security.yml
   - type: Website
     url: http://geodb-cities-api.wirefreethought.com/
   - type: PublicAPIsListing
     url: https://github.com/public-apis/public-apis
+  - url: http://geodb-cities-api.wirefreethought.com/entries.atom
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
