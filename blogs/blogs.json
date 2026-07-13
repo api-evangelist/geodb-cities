@@ -1,0 +1,14 @@
+{
+  "repo": "geodb-cities",
+  "feeds": [
+    {
+      "source": "http://geodb-cities-api.wirefreethought.com/entries.atom",
+      "feed_url": "http://geodb-cities-api.wirefreethought.com/entries.atom",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    }
+  ],
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 20
+}
