@@ -39,7 +39,6 @@ apis:
   - name: GeoDB Cities
     description: "Get global city, region, and country data"
     humanURL: http://geodb-cities-api.wirefreethought.com/
-    baseURL: http://geodb-cities-api.wirefreethought.com/
     tags:
       - Geocoding
     properties:
